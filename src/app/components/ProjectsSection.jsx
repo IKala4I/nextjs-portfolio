@@ -72,7 +72,7 @@ const ProjectsSection = () => {
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
                 {filteredProjects.map((project, index) => {
                     let previewTarget = '_blank'
-                    if (index === 1)
+                    if (project.id === 1)
                         previewTarget = '_self'
 
                     return (<motion.li
