@@ -12,7 +12,7 @@ const projectsData = [
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/IKala4I/nextjs-portfolio",
-        previewUrl: "/",
+        previewUrl: "https://nextjs-portfolio-two-plum.vercel.app",
     },
     {
         id: 2,
