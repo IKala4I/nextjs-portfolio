@@ -11,12 +11,14 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Git</li>
         <li>MongoDB</li>
+        <li>Express</li>
         <li>PostgreSQL</li>
+        <li>Microsoft SQL Server</li>
         <li>HTML, CSS, JS</li>
         <li>TypeScript</li>
+        <li>Angular</li>
         <li>React</li>
         <li>Redux</li>
-        <li>Nextjs</li>
         <li>REST API</li>
         <li>English B1+</li>
       </ul>
@@ -61,12 +63,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a third-year student in KPI with 1+ years of
-            experience in coding. I have good knowledge of HTML5,
-            CSS3, Javascript, TypeScript, React, Redux (see my skills). Seeking
-            to leverage my technical skills and abilities to advance
-            my career. I am ready to be hard-working and do my
-            best.
+              I am a third-year student in KPI with 1+ years of
+              experience in coding. I have good knowledge of HTML5,
+              CSS3, Javascript, TypeScript, React, Angular and
+              Express. Seeking to leverage my technical skills and
+              abilities to advance my career. I am ready to be hard-
+              working and do my best.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
